@@ -2,7 +2,6 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     margin:0px;
     background-color: #003B46;
 }
@@ -12,24 +11,68 @@ body{
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
-    margin-top: 70px;
     font-size: 40px;
     color:#FFD166;
+    margin:70px auto auto auto;
+}
+
+.new-grid{
+    color:white;
+    font-size:38;
+    margin-top:50px;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+
+}
+
+.error{
+    color:#DC143C;
+    margin-top:15px;
+    text-align: center;
+}
+
+.new-grid input{
+    border-radius: 3px;
+    border:0px;
+    padding:5px 8px;
+}
+
+.new-grid button{
+    background-color: #3498DB;
+    color:white;
+    padding: 5px 8px;
+    margin:0px;
+    border:0px;
+    border-radius: 5px;
+}
+
+.new-grid button:hover{
+    cursor: pointer; /* Change cursor to pointer */
+    background-color: #2980B9; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
 }
 
 .grid-container{
+    margin: auto;
+    flex: 0 0 auto;
     border:1px solid grey;
     height:600px;
     width:600px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin:auto;
     background-color: #F0F0F0;
     box-shadow: 
     0 0 20px rgba(0, 0, 0, 0.2), /* Top shadow */
     0 0 20px rgba(0, 0, 0, 0.2), /* Right shadow */
     0 0 20px rgba(0, 0, 0, 0.2), /* Bottom shadow */
     0 0 20px rgba(0, 0, 0, 0.2); /* Left shadow */
-
 }
