@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin:0px;
+    background-color: #003B46;
+}
+
+.title{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 70px;
+    font-size: 40px;
+    color:#FFD166;
+}
+
+.grid-container{
+    border:1px solid grey;
+    height:600px;
+    width:600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin:auto;
+    background-color: #F0F0F0;
+    box-shadow: 
+    0 0 20px rgba(0, 0, 0, 0.2), /* Top shadow */
+    0 0 20px rgba(0, 0, 0, 0.2), /* Right shadow */
+    0 0 20px rgba(0, 0, 0, 0.2), /* Bottom shadow */
+    0 0 20px rgba(0, 0, 0, 0.2); /* Left shadow */
+
+}
